@@ -1,0 +1,229 @@
+/* *{
+  margin: 0;
+  padding: 0;
+} */
+html, body {
+  width: 100%;
+  height: 100%;
+  font-size: 14px;
+  font-weight: normal;
+  /* background-image: url("bg.jpg"); */
+
+}
+.background{
+  height: 100%;
+  width: 100%;
+  /* background-image: url("Main2.jpg"); */
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow-y: auto;
+  position:absolute;
+  /* opacity: 0.1; */
+
+
+  background-position: 20% 20%;
+}
+
+
+.bg-container{
+  width: 100%;
+  height: 100%;
+  border: 1px solid #000;
+  position: relative;
+}
+.bg-container .content{
+  position: absolute;
+  z-index:999;
+  /* text-align: center; */
+  width: 100%;
+}
+.bg-container::after{
+  content: "";
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  z-index:99;
+  background-image: url("Main2.jpg");
+  background-size: cover;
+  opacity: 0.25;
+}
+
+.nav{
+    width: 350px;
+    height:auto;
+    position:absolute;
+    top:20%;
+    left:0;
+}
+
+.nav a{
+    text-decoration: none;
+    font-size: 28px;
+    font-family: verdana;
+    font-weight: bold;
+    width: 90%;
+    height:90px;
+    margin:5px 0;
+    float: left;
+    display: inline-block;
+    background-color: black;
+    color:white;
+    line-height: 90px;
+    text-align: center;
+    transition: 300ms;
+}
+
+a.active, .nav a:hover{
+    background-color: white;
+    color:black;
+    width: 100%;
+}
+.a{
+  width: 95%
+}
+.b{
+  width: 85%;
+}
+.c{
+  width: 80%;
+}
+.d{
+  width: 90%;
+}
+.content{
+  position: absolute;
+  width: 860px;
+  min-height: 520px;
+  height:auto;
+  //background-color: #5d6d7e;
+  right: 0;
+  top:7%;
+}
+.home{
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  color:white;
+  font-family: verdana;
+  text-transform: uppercase;
+}
+
+.home h1{
+  font-size: 70px;
+  padding-right:50px;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+  border-bottom: 2px solid white;
+}
+
+.home h3{
+  font-size: 27px;
+  padding-top: 0px
+  margin: 0px;
+  padding: 1px 0;
+  opacity: 0.85;
+  //color:#7f8c8d;
+
+}
+
+.padding{
+  margin: 0px;
+  padding: 0px;
+}
+
+.aboutme{
+  position: absolute;
+  right:0;
+  top: 10px;
+  color:white;
+  font-family: verdana;
+  padding: 0 60px
+}
+
+.aboutme p{
+
+}
+
+div.container4 {
+    height: 5em;
+  }
+    /* position: relative } */
+div.container4 {
+    margin: 0;
+    //background: yellow;
+    position: absolute;
+    top: 10%;
+    left: 55%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    color:black;
+     //text-shadow: -1px 0 white, 0 2px white, 1px 0 white, 0 -1px white;
+     font-size: 17px;
+    //font-family: "Georgia";
+
+  }
+
+  /* div.container5 {
+      height: 0em;
+      position: relative } */
+
+  .culo {
+      margin: 0;
+      //background: yellow;
+      position: absolute;
+      top: 15%;
+      left: 35%;
+      margin-right: -50%;
+      transform: translate(-50%, -50%);
+      //border-bottom: 1px solid blue;
+
+    }
+    .texto {
+      width: 800px;
+      min-height: 500px;
+      height:auto;
+        margin:0;
+        //background: yellow;
+        position: absolute;
+        top:123%;
+        left: 60%;
+        margin-right:50%;
+        transform: translate(-50%, -50%);
+        //border-bottom: 1px solid blue;
+        font-size:17.3px;
+          line-height: 90%;
+          color:black     ;
+           font-weight: 900;
+        //  text-shadow: 0px 0 white, 0 0px white, 0px 0 white, 0 0px white;
+         //font-family: "Georgia";
+
+
+      }
+      .indent{
+          text-indent: 25px;
+          line-height: 40%;
+          //font-size:large;
+      }
+      .foto {
+        height: 450px;
+        width: 360px;
+        padding-top: 70px;
+        padding-right: 40px;
+        padding-left: 60px;
+
+
+      }
+
+      /* .fotico{
+        height: 100%;
+        width: 100%;
+        background-image: url("hello.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        overflow-y: auto;
+        position:absolute;
+        opacity: 90px;
+        //background-color: #E8F8F5
+      } */

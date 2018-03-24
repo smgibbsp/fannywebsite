@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title></title>
+  <script src="jquery.js"></script>
+  <link rel="stylesheet" type="text/css" href="galley_style.css">
+  <link rel="stylesheet" type="text/css" href="lightbox.min.css">
+  <script type="text/javascript" src="../js/lightbox-plus-jquery.min.js">
+  </script>
+</head>
+<body>
+  <div class="background">
+    <div class="gallery">
+      <a href="1.jpg"data-lightbox="mygallery"><img src="1.jpg"></a>
+      <a href="2.jpg"data-lightbox="mygallery"><img src="2.jpg"></a>
+      <a href="3.jpg"data-lightbox="mygallery"><img src="3.jpg"></a>
+      <a href="4.jpg"data-lightbox="mygallery"><img src="4.jpg"></a>
+      <a href="5.jpg"data-lightbox="mygallery"><img src="5.jpg"></a>
+      <a href="6.jpg"data-lightbox="mygallery"><img src="6.jpg"></a>
+      <a href="7.jpg"data-lightbox="mygallery"><img src="7.jpg"></a>
+      <a href="8.jpg"data-lightbox="mygallery"><img src="8.jpg"></a>
+      <a href="9.jpg"data-lightbox="mygallery"><img src="9.jpg"></a>
+      <a href="10.jpg"data-lightbox="mygallery"><img src="10.jpg"></a>
+      <a href="11.jpg"data-lightbox="mygallery"><img src="11.jpg"></a>
+      <a href="12.jpg"data-lightbox="mygallery"><img src="12.jpg"></a>
+      <a href="13.jpg"data-lightbox="mygallery"><img src="13.jpg"></a>
+      <a href="14.jpg"data-lightbox="mygallery"><img src="14.jpg"></a>
+      <a href="15.jpg"data-lightbox="mygallery"><img src="15.jpg"></a>
+      <a href="16.jpg"data-lightbox="mygallery"><img src="16.jpg"></a>
+      <a href="17.jpg"data-lightbox="mygallery"><img src="17.jpg"></a>
+      <a href="18.jpg"data-lightbox="mygallery"><img src="18.jpg"></a>
+      <a href="19.jpg"data-lightbox="mygallery"><img src="19.jpg"></a>
+      <a href="DSC00150.jpg"data-lightbox="mygallery"><img src="DSC00150.jpg"></a>
+      <a href="DSC00160.jpg"data-lightbox="mygallery"><img src="DSC00160.jpg"></a>
+      <a href="DSC00179.jpg"data-lightbox="mygallery"><img src="DSC00179.jpg"></a>
+      <a href="DSC00182.jpg"data-lightbox="mygallery"><img src="DSC00182.jpg"></a>
+      <a href="DSC00200.jpg"data-lightbox="mygallery"><img src="DSC00200.jpg"></a>
+      <a href="DSC00202.jpg"data-lightbox="mygallery"><img src="DSC00202.jpg"></a>
+      <a href="DSC00219.jpg"data-lightbox="mygallery"><img src="DSC00219.jpg"></a>
+      <a href="DSC00220.jpg"data-lightbox="mygallery"><img src="DSC00220.jpg"></a>
+      <a href="DSC00265.jpg"data-lightbox="mygallery"><img src="DSC00265.jpg"></a>
+      <a href="DSC00266.jpg"data-lightbox="mygallery"><img src="DSC00266.jpg"></a>
+      <a href="DSC00267.jpg"data-lightbox="mygallery"><img src="DSC00267.jpg"></a>
+      <a href="DSC00294.jpg"data-lightbox="mygallery"><img src="DSC00294.jpg"></a>
+      <a href="DSC00307.jpg"data-lightbox="mygallery"><img src="DSC00307.jpg"></a>
+      <a href="DSC00339.jpg"data-lightbox="mygallery"><img src="DSC00339.jpg"></a>
+      <a href="DSC00340.jpg"data-lightbox="mygallery"><img src="DSC00340.jpg"></a>
+      <a href="DSC00343.jpg"data-lightbox="mygallery"><img src="DSC00343.jpg"></a>
+    </div>
+    <div class="nav">
+      <a class="a" href="../index.html">HOME</a>
+      <a class="b" href="../about/about.html">ABOUT ME</a>
+      <a class="c active" href="gallery.html">GALLERY</a>
+      <a class="d" href="../Contact/contact.html">CONTACT</a>
+    </div>
+
+    </div>
+
+</div>
+
+
+<script type="text/javascript">
+  $(document).ready(function(){
+      $('a').click(function(){
+      //  alert("i am click");
+      var selected = $(this);
+      $('a').removeClass('active');
+      $(selected).addClass('active');
+      });
+  });
+</script>
+
+</body>
+</html>

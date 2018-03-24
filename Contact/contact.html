@@ -1,0 +1,50 @@
+<html>
+<head>
+  <title>Contact Form</title>
+  <!-- <script src="jquery.js"></script> -->
+  <link rel="stylesheet" type="text/css" href="contactStyle.css">
+</head>
+
+<body>
+
+<div class="contact-title">
+      <h1>Say Hello</h1>
+</div>
+<div class="contact-form">
+
+  <form action="https://formspree.io/fannymichelle041994@gmail.com" method="POST">
+    <input name="name" type="text" name="name" class="form-control" placeholder="Your Name" required><br>
+    <input name="email" type="email" name="_replyto" class="form-control" placeholder="Your Email" required><br>
+      <textarea name="message" class="form-control" placeholder="Message" row="4" required></textarea><br>
+      <input type="submit" class="form-control submit" value="Send">
+  </form>
+</div>
+
+  <div class="nav">
+    <a class="a" href="../index.html">HOME</a>
+    <a class="b" href="../about/about.html">ABOUT ME</a>
+    <a class="c" href="../gallery/gallery.html">GALLERY</a>
+    <a class="d active" href="contact.html">CONTACT</a>
+  </div>
+
+  <!-- <div class="content">
+    <div class="home">
+      <h1 class="padding">Stephanie Gibbs</h1>
+      <h3 class="padding">Industrial Engineer</h3>
+    </div>
+  </div> -->
+
+
+  <script type="text/javascript">
+    $(document).ready(function(){
+        $('a').click(function(){
+        //  alert("i am click");
+        var selected = $(this);
+        $('a').removeClass('active');
+        $(selected).addClass('active');
+        });
+    });
+  </script>
+
+</body>
+</html>

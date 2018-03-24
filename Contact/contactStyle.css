@@ -1,0 +1,107 @@
+body {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  background: linear-gradient(rgba(0,0,50,0.5),rgba(0,0,50,0.5)),url(2.jpg);
+  background-size: cover;
+  background-position: center;
+  font-family: sans-serif;
+}
+
+.background{
+  width: 100%;
+  height: 100%;
+
+  /* background-image: url("DSC00339.jpg"); */
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  overflow-y: auto;
+}
+.nav{
+    width: 350px;
+    height:auto;
+    position:absolute;
+    top:20%;
+    left:0;
+}
+
+.nav a{
+    text-decoration: none;
+    font-size: 28px;
+    font-family: verdana;
+    font-weight: bold;
+    width: 90%;
+    height:90px;
+    margin:5px 0;
+    float: left;
+    display: inline-block;
+    background-color: black;
+    color:white;
+    line-height: 90px;
+    text-align: center;
+    transition: 300ms;
+}
+
+a.active, .nav a:hover{
+    background-color: white;
+    color:black;
+    width: 100%;
+}
+.a{
+  width: 95%
+}
+.b{
+  width: 85%;
+}
+.c{
+  width: 80%;
+}
+.d{
+  width: 90%;
+}
+
+
+.contact-title{
+margin-top: 100px;
+color:#fff;
+//padding-top : 40px;
+color: white;
+  text-transform: uppercase;
+  OUtransition: all 4s ease-in-out;
+}
+.contact-title h1{
+  font-size: 32px;
+  line-height: 10px;
+}
+form{
+  margin-top: 50px;
+  transition: all 4s ease-in-out;
+}
+.form-control{
+  width: 450px;
+  background: transparent;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid gray;
+  color: white;
+  font-size: 18px;
+  margin-bottom: 16px;
+}
+input{
+  height: 45px;
+}
+form .submit{
+  background:#ff5722;
+  border-color: transparent;
+  color: #fff;
+  font-size: 20px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  height: 50px;
+  margin-top: 20px;
+}
+form .submit:hover{
+  background-color: #f44336;
+  cursor: pointer;
+}
